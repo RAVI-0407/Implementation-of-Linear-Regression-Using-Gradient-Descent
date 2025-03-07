@@ -57,8 +57,6 @@ scaler=StandardScaler()
 y=(data.iloc[1:,-1].values).reshape(-1,1)
 X1_Scaled=scaler.fit_transform(X1)
 Y1_Scaled=scaler.fit_transform(y)
-print(X)
-print(X1_Scaled)
 
 # Learn Model Parameters
 
@@ -75,14 +73,6 @@ print(prediction)
 print(f"Predicted value: {pre}") 
 ```
 ## Output:
-
-## VALUE OF X
-
-![image](https://github.com/user-attachments/assets/a5b203a9-b7cf-4be9-99b7-669596c97f58)
-
-## VALUE OF X_SCALED
-
-![image](https://github.com/user-attachments/assets/0db9e3f3-e281-4738-8a95-93080bcfefcf)
 
 ## PREDICTED VALUE
 
